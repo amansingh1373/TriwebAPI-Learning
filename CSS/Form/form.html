@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form HTML</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <form action="#">
+                <div class="input-wrapper center">
+                    <label for="fname">First Name : </label>
+                    <input type="text" name="fname" id="fname">
+                </div>
+                <div class="input-wrapper center">
+                    <label for="lname">Last Name : </label>
+                    <input type="text" name="lname" id="lname">
+                </div>
+                <div class="input-wrapper center">
+                    <label for="uname">User Name : </label>
+                    <input type="text" name="uname" id="uname">
+                </div>
+                <div class="input-wrapper center">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                </div>
+                <div class="input-wrapper">
+                    <div class="center bottom-padding">
+                        select your fav sports
+                    </div>
+                    <div class="center">
+                        <label for="hockey">Hockey</label>
+                        <input type="checkbox" name="cbox" value="hockey">
+                        <br>
+                        <label for="football">Footaball</label>
+                        <input type="checkbox" name="cbox" value="football">
+                        <br>
+                        <label for="badminton">Badminton</label>
+                        <input type="checkbox" name="cbox" value="badminton">
+                    </div>
+                </div>
+                <div class="input-wrapper center">
+                    <input  class="button" type="submit" value="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
